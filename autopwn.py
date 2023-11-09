@@ -13,7 +13,6 @@ import argparse
 from termcolor import colored
 from pwn import log
 from itertools import product
-from ping3 import ping, verbose_ping
 
 def exit(signal_number, frame):
     log.info("Saliendo..")
